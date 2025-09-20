@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio — Martín Sueldo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container header-container">
+      <h2 class="logo">Martín Sueldo</h2>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#presentacion">Presentación</a></li>
+          <li><a href="#estudios">Estudios</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#redes">Redes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>       
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="presentacion">
+      <div class="container box">
+        <h1>Hola! Soy Martín Sueldo</h1>
+        <div class="intro">
+          <img src="assets/fotoperfil.jpg" alt="Foto de Tu Nombre">
+          <p>
+            Aqui iria una presentacion si tan solo tuviera una presentacion lista!!!
+          </p>
+        </div>
+        <a href="#proyectos" class="cta-btn">Ver mis proyectos</a>
+      </div>
+    </section>
+    
+    <section id="estudios">
+      <div class="container box">
+        <h2>Estudios</h2>
+        <ul>
+          <li><strong> Tecnicatura universitaria en programación - UTN FRGP</strong>  (2024 - En curso)</li>          
+        </ul>
+        <p>
+          Estudiante universitario de programación enfocado en backend y manejo de datos, apasionado por crear sistemas y aprender nuevas tecnologías.        
+        </p>
+      </div>
+    </section>
+    
+     <section id="skills">
+      <div class="container box">
+        <h2>Skills</h2>
+        <div class="tech-cards">
+          <div class="tech-card">
+            <img src="assets/c++.png" alt="C++ Logo">
+            <p>C++</p>
+          </div>
+          <div class="tech-card">
+            <img src="assets/csharp.svg" alt="C# Logo">
+            <p>C#</p>
+          </div>
+          <div class="tech-card">
+            <img src="assets/sql.jpeg" alt="SQL Logo">
+            <p>SQL Server</p>
+          </div>      
+          <div class="tech-card">
+            <img src="assets/mongodb.png" alt="MongoDB Logo">
+            <p>MongoDB</p>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section id="proyectos">
+      <div class="container box">
+        <h2>Proyectos</h2>
+        <div class="projects">
+          <article class="project-card">
+            <img src="assets/proyecto1.png" alt="Proyecto A">
+            <h3>Sistema de gestión veterinaria</h3>
+            <p>Aplicación de escritorio desarrollada en C++ para gestionar pacientes, citas y facturación en clínicas veterinarias, 
+              con interfaz intuitiva y funcionalidad pensada para el día a día.
+            </p>
+            <a href="https://github.com/mnsueldo" target="_blank" class="project-btn">Ver</a>
+          </article>
+          <article class="project-card">
+            <img src="assets/proyecto2.png" alt="Proyecto B">
+            <h3>Base de datos para veterinaria</h3>
+            <p>Diseño e implementación de una base de datos relacional en SQL para clínicas veterinarias, enfocada en la gestión de pacientes, historial médico, consultas y cobros de manera eficiente.</p>
+            <a href="https://github.com/mnsueldo/BD2Gestion_Veterinaria.git" target="_blank" class="project-btn">Ver</a>
+          </article>
+          <article class="project-card">
+            <img src="assets/juego.png" alt="Proyecto C">
+            <h3>Videojuego 2D estilo suvivor</h3>
+            <p>Juego 2D desarrollado en C++ con SFML, inspirado en Vampire Survivor. Incluye mecánicas de supervivencia, enemigos progresivos y gráficos pixel art con controles fluidos. Desarrollo colaborativo</p>
+            <a href="https://github.com/federiconahuelbaiocco/No-te-mueras-Survivor.git" target="_blank" class="project-btn">Ver</a>
+          </article>
+        </div>
+      </div>
+    </section>    
+
+    <section id="redes">
+      <div class="container box">
+        <h2>Redes</h2>
+        <div class="social-icons">
+          <a href="https://github.com/mnsueldo" target="_blank">
+            <img src="assets/github.png" alt="GitHub">
+            <p>GitHub</p>
+          </a>
+          <a href="https://www.linkedin.com/in/mnsueldo/" target="_blank">
+            <img src="assets/linkedin.png" alt="LinkedIn">
+            <p>Linkedin</p>
+          </a>                
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contacto">
+      <div class="container box">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+          <label>
+            Nombre
+            <input type="text" name="name" required>
+          </label>
+
+          <label>
+            Correo
+            <input type="email" name="email" required>
+          </label>
+
+          <label>
+            Mensaje
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="añio">2025</span> Martín Sueldo - hecho para Programacion 3</p>
+    </div>
+  </footer>
+</body>
+</html>
